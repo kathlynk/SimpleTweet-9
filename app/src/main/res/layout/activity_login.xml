@@ -28,8 +28,8 @@
 
     <ImageView
         android:id="@+id/ivTwitterIcon"
-        android:layout_width="127dp"
-        android:layout_height="114dp"
+        android:layout_width="115dp"
+        android:layout_height="95dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="110dp"
