@@ -2,6 +2,7 @@ package com.codepath.apps.restclienttemplate;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -107,6 +108,7 @@ public class ComposeActivity extends AppCompatActivity {
                 // Fires right before text is changing
             }
 
+            @SuppressLint("SetTextI18n")
             @Override
             public void afterTextChanged(Editable s) {
                 // Fires right after the text has changed

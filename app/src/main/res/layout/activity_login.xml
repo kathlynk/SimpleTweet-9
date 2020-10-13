@@ -1,19 +1,40 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#14171A"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".LoginActivity" >
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity">
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="299dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
+        android:layout_marginBottom="236dp"
+        android:backgroundTint="#1DA1F2"
         android:onClick="loginToRest"
-        android:text="@string/login_label" />
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/login_label"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivTwitterIcon"
+        android:layout_width="127dp"
+        android:layout_height="114dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_twitter_icon" />
 
 </RelativeLayout>
