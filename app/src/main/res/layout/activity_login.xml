@@ -24,7 +24,9 @@
         android:text="@string/login_label"
         android:textColor="#FFFFFF"
         android:textSize="23sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:background="@drawable/round_border"
+        />
 
     <ImageView
         android:id="@+id/ivTwitterIcon"

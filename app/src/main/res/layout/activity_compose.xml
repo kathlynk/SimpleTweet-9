@@ -22,7 +22,10 @@
         android:inputType="textMultiLine"
         android:minLines="5"
         android:textColor="#FFFFFF"
-        android:textColorHint="#BFBFBF" />
+        android:textColorHighlight="#888E8B8B"
+        android:textColorHint="#BFBFBF"
+        android:textColorLink="#DF4242"
+        />
 
     <Button
         android:id="@+id/btnTweet"
